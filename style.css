@@ -16,41 +16,38 @@ header {
 	background-color: #FF9A4B;
 }
 
-.contents {
+main {
 	width: 960px;
 	margin: 50px auto;
 }
 
 .content {
-	background-color: #EEEEEE;
 	width: 300px;
+	background-color: #EEEEEE;
 	float: left;
 	margin-right: 30px;
 	position: relative;
-}
-
-.container h3 {
-	padding-top: 10px;
-	font-weight: normal;
-}
-
-.container p {
-	margin-top: 5px;
-	font-size: 12px;
-}
-
-.container {
 	padding: 10px;
 }
 
-.step {
-	position: absolute;
-	background-color: #FF9A4B;
-	color: white;
+.content h3 {
+	margin: 15px 0 5px 0;
+}
+
+.content p {
+	font-size: 12px;
 }
 
 .content:last-child {
 	margin-right: 0;
+}
+
+.step {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #FF9A4B;
+	color: #FFF;
 }
 
 .content-image {
@@ -66,7 +63,6 @@ header {
 .image2 {
 	background-image: url(img/flow02.png);
 }
-
 
 .image3 {
 	background-image: url(img/flow03.png);
